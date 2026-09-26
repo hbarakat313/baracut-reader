@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://baracut-reader.netlify.app/sitemap.xml

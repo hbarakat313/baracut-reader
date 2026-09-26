@@ -1,3 +1,0 @@
-# Netlify publishes site/ as it is: the site is built and its update manifest signed before it is pushed here.
-[build]
-  publish = "site"
