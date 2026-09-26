@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hbarakat313.github.io/baracut-reader/sitemap.xml
