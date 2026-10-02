@@ -48,7 +48,7 @@
       <ul>
         <li><a href="/baracut-reader/features/">Features</a></li><li><a href="/baracut-reader/download/">Download</a></li><li><a href="/baracut-reader/changelog/" aria-current="page">Changelog</a></li><li><a href="/baracut-reader/support/">Support</a></li>
       </ul>
-      <a class="button button-primary button-small header-cta" href="https://github.com/hbarakat313/baracut-reader/releases/download/v1.7.0/BaracutReader-Setup-1.7.0.exe" data-download>
+      <a class="button button-primary button-small header-cta" href="https://github.com/hbarakat313/baracut-reader/releases/download/v1.8.0/BaracutReader-Setup-1.8.0.exe" data-download>
     <svg class="icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8,1.75 L8,10.25 M4.5,6.75 L8,10.25 L11.5,6.75 M2.75,13.75 L13.25,13.75"/></svg><span>Download for Windows</span></a>
     </nav>
   </div>
@@ -60,17 +60,36 @@
     <p class="eyebrow">Changelog</p>
     <h1>What changed in each version</h1>
     <p class="lead">Installed copies update themselves, so the newest version is usually a click away.
-      <a class="text-link" href="/baracut-reader/download/">Download 1.7.0 <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3,8 L13,8 M9,4 L13,8 L9,12"/></svg></a></p>
+      <a class="text-link" href="/baracut-reader/download/">Download 1.8.0 <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3,8 L13,8 M9,4 L13,8 L9,12"/></svg></a></p>
   </div>
 </section>
 <section class="section section-flush">
   <div class="container narrow">
     <ol class="timeline">
+      <li class="timeline-item" id="v1-8-0">
+        <article>
+          <header class="timeline-header">
+            <h2>Version 1.8.0</h2>
+            <span class="badge badge-current">Current</span>
+            <p class="release-meta"><time datetime="2026-10-02">2 October 2026</time></p>
+          </header>
+          <p class="lead">Find text anywhere in a PDF, see every match highlighted and listed, jump to a page number, and go back to where you were.</p>
+          
+    <h3 class="notes-section">New</h3>
+    <ul class="notes-list"><li>Find text in the whole document: press Ctrl+F and type. Every page is searched as you type, and the page goes to the nearest match from where you are.</li><li>Every match is highlighted on its page, and the one you&#39;re on is outlined. The find bar shows where you are, such as 3 of 27.</li><li>Go through the matches with Enter and Shift+Enter in the find box, with F3 and Shift+F3 anywhere, or with the arrows in the find bar. At the last match it continues from the first.</li><li>List all results: each match with the words around it, grouped by page, in place of the page thumbnails. Click a result to go to it.</li><li>Match case and Whole words only, each one click in the find bar.</li><li>Search finds what you mean: capital letters and accents don&#39;t have to match, a phrase is found across a line break, and a word split with a hyphen at the end of a line is still found.</li><li>Text you added and answers typed into form fields are found too, as soon as they are there. Text written right to left, such as Arabic and Hebrew, is found as you type it.</li><li>Go to a page number with Ctrl+G.</li><li>Back and Forward: Alt+Left returns to where you were before a search, a page number or a click on a thumbnail, and Alt+Right goes forward again. The view pill has buttons for both, and a mouse&#39;s back and forward buttons work too.</li></ul>
+    <h3 class="notes-section">Improved</h3>
+    <ul class="notes-list"><li>Large documents are searched in the background, a few pages at a time, so you can keep reading and editing. A page&#39;s text is read once and reused for every later search.</li><li>A search follows the document: add or edit text, fill in a field, or move, rotate or delete pages, and the matches update while your place is kept.</li><li>When pages have no text to search, such as scans, the results say so instead of just finding nothing.</li><li>The keyboard shortcuts list (F1) has a section for finding.</li></ul>
+    <h3 class="notes-section">Security</h3>
+    <ul class="notes-list"><li>Searching happens on your PC, in memory. What you search for and what is found is never saved, never written to logs and never sent anywhere.</li><li>What is typed into a password field of a form is never found by a search.</li></ul>
+    <h3 class="notes-section">Known issues</h3>
+    <ul class="notes-list"><li>Alt+Left and Alt+Right now go Back and Forward. To turn pages, use Page Up and Page Down or the arrows in the view pill.</li><li>Scanned pages and text inside pictures can&#39;t be searched: that needs text recognition (OCR), which isn&#39;t included yet.</li><li>Text in comments and other annotations a PDF already had isn&#39;t searched, and neither are form fields on pages inserted from another PDF until the document is saved and opened again.</li><li>A search lists the first 10,000 matches and says so when there are more.</li></ul>
+        </article>
+      </li>
       <li class="timeline-item" id="v1-7-0">
         <article>
           <header class="timeline-header">
             <h2>Version 1.7.0</h2>
-            <span class="badge badge-current">Current</span>
+            
             <p class="release-meta"><time datetime="2026-09-27">27 September 2026</time></p>
           </header>
           <p class="lead">Fill in PDF forms, and complete any form with text, checkmarks, dates, initials and signatures.</p>
@@ -214,7 +233,7 @@
       <img src="/baracut-reader/brand/baracut-lockup-horizontal.svg" alt="Baracut Reader" width="172" height="35">
     </picture></a>
       <p>A PDF editor for Windows: edit text, highlight, organize pages and save standard PDFs.</p>
-      <p class="footer-version">Current version <a href="/baracut-reader/changelog/#v1-7-0">1.7.0</a></p>
+      <p class="footer-version">Current version <a href="/baracut-reader/changelog/#v1-8-0">1.8.0</a></p>
     </div>
     <nav class="footer-nav" aria-label="Footer">
       <div>
